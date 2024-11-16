@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Empresa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Bienvenidos a Mi Empresa</h2>
+        <p>Ofrecemos los mejores bienes y servicios para satisfacer tus necesidades.</p>
+        <a href="#contacto" class="cta">Contáctanos</a>
+    </section>
+
+    <section id="nosotros">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p>Somos una empresa dedicada a ofrecer bienes y servicios de alta calidad en Perú.</p>
+            <p>Nuestra misión es proporcionar soluciones confiables y efectivas para nuestros clientes.</p>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="container">
+            <h2>Servicios</h2>
+            <ul class="services-list">
+                <li>
+                    <h3>Servicio 1</h3>
+                    <p>Descripción breve del servicio.</p>
+                </li>
+                <li>
+                    <h3>Servicio 2</h3>
+                    <p>Descripción breve del servicio.</p>
+                </li>
+                <li>
+                    <h3>Servicio 3</h3>
+                    <p>Descripción breve del servicio.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
